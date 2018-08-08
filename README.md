@@ -89,3 +89,22 @@ you will see this:
 Branch xyz setup to track remote branch xyz from origin
 ```
 3- git pull
+
+# How to get a repository and all its branches locally
+
+```
+mkdir <Folder_name>
+
+cd <Folder_name>
+
+git clone --bare <copy and paste clone link from git hub here> .git
+
+git config --bool core.bare false
+
+git reset --hard
+
+git branch (to see all branches for repo. locally)
+
+git branch <tag> (to switch to other branch)
+
+```
