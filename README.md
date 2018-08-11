@@ -107,4 +107,17 @@ git branch (to see all branches for repo. locally)
 
 git branch <tag> (to switch to other branch)
 
+
+```
+# how to work in other previouse commmit
+
+```
+git checkout <commit tage> (copy commit tag from git)
+
+```
+note: After working on other commits,in order to DO NOT  save or commit new changes:
+
+```
+git stash   (teh commit will back to its original and no new commit createed)
+
 ```
