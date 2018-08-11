@@ -109,7 +109,7 @@ git branch <tag> (to switch to other branch)
 
 
 ```
-# how to work in other previouse commmit
+# How to work in other previous commmit
 
 ```
 git checkout <commit tage> (copy commit tag from git)
