@@ -118,6 +118,23 @@ git checkout <commit tage> (copy commit tag from git)
 note: After working on other commits,in order to DO NOT  save or commit new changes:
 
 ```
-git stash   (the commit will back to its original and no new commit createed)
+git stash   (the commit will back to its original and no new commit created)
 
+To Create new commits and push to github we need to be in master branch
+So use "git checkout" to see our current branch(head) and git checkout master to
+change our head to origin/master. Now we can create new commits and push to github as new commit.
+
+
+```
+# Create new branch, work on, and merge with origin master
+
+```
+create new branch:
+
+git branch<New name>
+
+after working on new branch in order to merge with origin/master branch:
+
+git branch master
+git merge <New name>
 ```
