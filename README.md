@@ -137,4 +137,7 @@ after working on new branch in order to merge with origin/master branch:
 
 git branch master
 git merge <New name>
+
+
+## do not forget to use "git stash" if do not want to commit new changes or want to back before any any changes and save or commits
 ```
