@@ -44,7 +44,8 @@ need to switch to master branch and
 ```
 git merge new master
 ```
-and follow command . usually need to manually set the conflicts and commit aswell.
+and follow command . usually need to manually set the conflicts and commit as
+well.
 
 
 # How to back to older version (locally - on computer)
@@ -59,6 +60,18 @@ git reset --hard <code verion hash>
 (this 7 digits hash is referred to our code version)
 
 by just git reset --hard we can find the current head.
+
+```
+
+# How to back to older version (on github)
+
+```
+This line will set the code to the old commit.
+git reset --hard <old code version hash or old commit>
+```
+```
+This line set the old commit as the LAST commit and REMOVE the commit(s) after  
+git push -f
 
 ```
 
@@ -109,20 +122,22 @@ git branch <tag> (to switch to other branch)
 
 
 ```
-# How to work in other previous commmit
+# How to work in other previous commit
 
 ```
 git checkout <commit tage> (copy commit tag from git)
 
 ```
-note: After working on other commits,in order to DO NOT  save or commit new changes:
+note: After working on other commit,in order to DO NOT  save or commit new
+ changes:
 
 ```
 git stash   (the commit will back to its original and no new commit created)
 
 To Create new commits and push to github we need to be in master branch
 So use "git checkout" to see our current branch(head) and git checkout master to
-change our head to origin/master. Now we can create new commits and push to github as new commit.
+change our head to origin/master. Now we can create new commits and push to
+github as new commit.
 
 
 ```
@@ -139,5 +154,6 @@ git branch master
 git merge <New name>
 
 
-## do not forget to use "git stash" if do not want to commit new changes or want to back before any any changes and save or commits
+## do not forget to use "git stash" if do not want to commit new changes or
+want to back before any any changes and save or commits
 ```
